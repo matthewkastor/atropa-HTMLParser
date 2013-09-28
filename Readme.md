@@ -7,20 +7,12 @@ Uses the browser to parse HTML documents from strings without executing scripts 
 The current published version:
 
 ```
-npm install atropa-HTMLParser
-```
-
-The bleeding edge development version:
-
-```
 npm install git+https://github.com/matthewkastor/atropa-HTMLParser.git#master
 ```
 
 For some packages I simply publish to the `gh-pages` branch since it's easier to
  generate web docs in the repo and push the whole thing. Check the repo
  if you try installing the `master` branch and don't get what you expect.
-
-This package lives at: [https://npmjs.org/package/atropa-HTMLParser](https://npmjs.org/package/atropa-HTMLParser)
 
 Source code available at: [https://github.com/matthewkastor/atropa-HTMLParser/](https://github.com/matthewkastor/atropa-HTMLParser/)
 
