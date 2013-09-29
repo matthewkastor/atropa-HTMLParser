@@ -1,6 +1,6 @@
 {
     "name": "atropa-HTMLParser",
-    "version": "2013.09.27-2431",
+    "version": "2013.09.29-141",
     "description": "Uses the browser to parse HTML documents from strings without executing scripts or fetching external resources.",
     "main": "./src/atropa-HTMLParser.js",
     "directories": {
