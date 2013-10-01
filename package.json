@@ -19,7 +19,8 @@
         "buildBrowserModule": "node dev/browserify.js",
         "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
         "lint": "atropa-jslint ./src/atropa-HTMLParser.js",
-        "srcFormat": "atropa-jsformatter ./src/atropa-HTMLParser.js ./src/atropa-HTMLParser.js"
+        "srcFormat": "atropa-jsformatter ./src/atropa-HTMLParser.js ./src/atropa-HTMLParser.js",
+        "pretest": "node dev/browserify.js"
     },
     "homepage": "https://github.com/matthewkastor/atropa-HTMLParser/",
     "bugs": "https://github.com/matthewkastor/atropa-HTMLParser/issues",
