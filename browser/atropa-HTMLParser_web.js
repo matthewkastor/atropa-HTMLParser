@@ -32,7 +32,7 @@ Object.keys(HTMLParser.data).filter(
  * @namespace Container for all Glorious classes, functions, etc.
  */
 var atropa = require('atropa-header');
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
     indent: 4,
     maxerr: 50,
@@ -173,7 +173,7 @@ module.exports = atropa;
 },{"atropa-header":3}],3:[function(require,module,exports){
 var atropa = {};
 
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 
 /*jslint
     indent: 4,
