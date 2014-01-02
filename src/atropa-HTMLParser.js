@@ -41,7 +41,6 @@ atropa.requires(
  * @returns {HTML DOM Document} Returns a blank HTML Document for you to load
  *  data into
  * @requires atropa.data
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.HTMLParser">tests</a>
  */
 atropa.HTMLParser = function HTMLParser() {
     "use strict";
