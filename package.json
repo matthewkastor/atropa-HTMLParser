@@ -1,6 +1,6 @@
 {
   "name": "atropa-HTMLParser",
-  "version": "2014.1.2",
+  "version": "2014.2.1",
   "description": "Uses the browser to parse HTML documents from strings without executing scripts or fetching external resources.",
   "main": "./src/atropa-HTMLParser.js",
   "directories": {
@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-HTMLParser.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-HTMLParser.js ./src/atropa-HTMLParser.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-HTMLParser/",
   "bugs": "https://github.com/matthewkastor/atropa-HTMLParser/issues",
