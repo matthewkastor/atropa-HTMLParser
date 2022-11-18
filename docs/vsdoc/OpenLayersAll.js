@@ -25,9 +25,11 @@
     
 
     window.atropa = {
-        /// <summary></summary>
-        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
+        /// <summary>Container for all Glorious classes, functions, etc.</summary>
         /// <returns type="atropa"/>
+      
+        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
+        data : {}, 
                 
         supportCheck: function(className, errorMessage) {
             /// <summary>Checks whether this class has been marked as unsupported and throws an 
@@ -68,7 +70,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.data = {
-        /// <summary></summary>
+        /// <summary>Container for gobal data related to the classes and functions.</summary>
         /// <returns type="atropa.data"/>
                 
     };
@@ -88,9 +90,10 @@
     window.atropa = window.atropa || {};
 
     window.atropa.HTMLParser = function(){
-        /// <summary></summary>
+        /// <summary>Creates a new HTML Parser<br />
+        /// /// Carry out DOM operations without loading content to the active document.</summary>
         /// <field name="doc" type="HTML DOM Document">Holds the created HTML DOM Document.</field>
-        /// <returns type="atropa.HTMLParser"/>
+        doc : new HTML DOM Document(), 
     };
 
     var $x = window.atropa.HTMLParser;
